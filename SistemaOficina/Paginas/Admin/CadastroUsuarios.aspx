@@ -4,55 +4,55 @@
     #Select1 {
         width: 128px;
     }
-</style>
+    </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
-    <asp:Label ID="TxtCadastroUser" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Larger" Text="Cadastrar Novo Usuario"></asp:Label>
-<br />
-<asp:Label ID="txtNome" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Nome"></asp:Label>
-&nbsp;&nbsp;
-<br />
-<asp:TextBox ID="txtBoxNome" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" Width="425px"></asp:TextBox>
-<br />
-<br />
-<asp:Label ID="txtUsuario" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Usuáro"></asp:Label>
-&nbsp;&nbsp;
-<br />
-<asp:TextBox ID="txtBoxUser" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" Width="425px"></asp:TextBox>
-<br />
-<br />
-<asp:Label ID="txtTelefone" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Telefone"></asp:Label>
-&nbsp;&nbsp;
-<br />
-<asp:TextBox ID="txtBoxTelefone" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" TextMode="Phone" Width="425px"></asp:TextBox>
-&nbsp;&nbsp;
-<br />
-<br />
-<asp:Label ID="txtCargo" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Cargo"></asp:Label>
-&nbsp;&nbsp;
-<br />
-<asp:TextBox ID="txtBoxCargo" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" TextMode="Phone" Width="425px"></asp:TextBox>
-&nbsp;&nbsp;
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+        <asp:Label ID="TxtCadastroUser" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Larger" Text="Cadastrar Novo Usuario"></asp:Label>
+    <br />
+    <asp:Label ID="txtNome" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Nome"></asp:Label>
+    &nbsp;&nbsp;
+    <br />
+    <asp:TextBox ID="txtBoxNome" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" Width="425px"></asp:TextBox>
     <br />
     <br />
-<asp:Label ID="txtSenha" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Senha"></asp:Label>
-&nbsp;&nbsp;
-<br />
-<asp:TextBox ID="txtBoxSenha" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" TextMode="Phone" Width="425px"></asp:TextBox>
-&nbsp;&nbsp;
-<br />
+    <asp:Label ID="txtUsuario" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Usuáro"></asp:Label>
+    &nbsp;&nbsp;
     <br />
-<asp:Label ID="txtAcesso" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Nível Acesso"></asp:Label>
-&nbsp;&nbsp;
-<br />
-<asp:DropDownList ID="ddlSelAcesso" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="30px" Width="250px">
-    <asp:ListItem Value="0">-</asp:ListItem>
-    <asp:ListItem Value="1">Operador</asp:ListItem>
-    <asp:ListItem Value="2">Gerente</asp:ListItem>
-    <asp:ListItem Value="3">Administrador</asp:ListItem>
-</asp:DropDownList>
-<br />
-<br />
+    <asp:TextBox ID="txtBoxUser" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" Width="425px"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="txtTelefone" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Telefone"></asp:Label>
+    &nbsp;&nbsp;
+    <br />
+    <asp:TextBox ID="txtBoxTelefone" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" TextMode="Phone" Width="425px"></asp:TextBox>
+    &nbsp;&nbsp;
+    <br />
+    <br />
+    <asp:Label ID="txtCargo" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Cargo"></asp:Label>
+    &nbsp;&nbsp;
+    <br />
+    <asp:TextBox ID="txtBoxCargo" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" TextMode="Phone" Width="425px"></asp:TextBox>
+    &nbsp;&nbsp;
+        <br />
+        <br />
+    <asp:Label ID="txtSenha" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Senha"></asp:Label>
+    &nbsp;&nbsp;
+    <br />
+    <asp:TextBox ID="txtBoxSenha" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="20px" TextMode="Phone" Width="425px"></asp:TextBox>
+    &nbsp;&nbsp;
+    <br />
+        <br />
+    <asp:Label ID="txtAcesso" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Text="Nível Acesso"></asp:Label>
+    &nbsp;&nbsp;
+    <br />
+    <asp:DropDownList ID="ddlSelAcesso" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="30px" Width="250px">
+        <asp:ListItem Value="0">-</asp:ListItem>
+        <asp:ListItem Value="1">Operador</asp:ListItem>
+        <asp:ListItem Value="2">Gerente</asp:ListItem>
+        <asp:ListItem Value="3">Administrador</asp:ListItem>
+    </asp:DropDownList>
+    <br />
+    <br />
 &nbsp;<asp:Button ID="btnCadastrar" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" Height="38px" OnClick="btnCadastrar_Click" Text="Cadastrar" Width="100px" />
 &nbsp;<br />
 <br />

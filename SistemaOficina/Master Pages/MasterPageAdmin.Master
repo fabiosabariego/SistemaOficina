@@ -2,16 +2,18 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
 <head runat="server">
+    <meta charset="UTF-8"/>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../Style/style.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
         <header>
-            <h1>OFICINA OLD CAR REPAIR</h1>
+            <h1 class="txtPrincipal">OFICINA OLD CAR REPAIR</h1>
         </header>
         <nav>
 
